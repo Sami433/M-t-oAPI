@@ -1,0 +1,78 @@
+body {
+background-color: #8dbed5;
+color: black;
+text-align: center;
+font-family: "font-1", cursive;
+}
+h1 {
+font-family: SnowtopCaps;
+font-size: 6rem;
+letter-spacing: 3px;
+margin: 40px 10px 40px;
+margin-top: -0.5%;
+
+}
+
+input {
+border: none;
+outline: none;
+text-align: center;
+font-size: 1.2rem;
+cursor: pointer;
+font-family: "font-1", cursive;
+margin: 3px 0px;
+width: 300px;
+padding: 10px 0px;
+margin-bottom: 30px;
+
+}
+
+input::placeholder {
+text-align: center;
+font-size: 1.2rem;
+}
+input[type="submit"] {
+width: 100px;
+border-radius: 25px 25px 25px 25px;
+background: white;
+transition: 0.3s ease;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background: rgb(0, 0, 0);
+color: white;
+letter-spacing: 1px;
+}
+
+.center-table{
+ margin: 0 auto;
+width: 50%; 
+text-align: center; 
+
+
+}
+th, td {
+border: 1px solid #ccc; 
+padding: 8px;
+}
+
+th {
+background-color: #f2f2f2;
+text-align: left; 
+}
+
+@media screen and (max-width: 600px) {
+form, .center-table {
+width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+form {
+margin-bottom: 50px;
+}
+}
+
+}
+
+
